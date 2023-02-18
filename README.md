@@ -1,5 +1,5 @@
 # Hydrology modules used for region 2
-Surface water routing, Rapid drainage, Slow lake drainage
+Surface water routing, Rapid drainage (Hydrofracture), Slow lake drainage (Channel Incision)
 
 NOTE: Lake refreezing module was not used for region 2
 # Data used for region2

@@ -26,7 +26,7 @@ The specifications of the daily snow depth data is as follows:
   1) The file format is sdep[day number].dat
   2) day number corresponds to the number of the day in which the model is run. For example, January 1st of the year is the 1st day and December 31st is 365th day (or 366th day in the case of a leap year)
   3) The spatial resolution of the snow depth data is 100 m
-  4) The unit is m
+  4) The unit is meters
   5) This data was extracted from the MAR model outputs
   
 The specifications of the daily snow density data is as follows:
@@ -57,3 +57,5 @@ gfortran main_prog1.f hydrofracture1.f crev_lake1.f non_lake_crev_new1.f crev_ce
 5. Type ./main_prog1.exe
 6. In case you get the error message: 'Segmentation fault...', increase the value against the variale SX in main_prog1.f and repeat steps 4 and 5.
 
+The unit of surface elevation data is meters
+The unit of ice thickness data is meters

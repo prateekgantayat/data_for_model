@@ -1,3 +1,6 @@
+# Hydrology modules used for region 2
+Surface water routing, Rapid drainage, Slow lake drainage
+NOTE: Lake refreezing module was not used for region 2
 # Data used for region2
 Input data used for running the hydrology model
 This data is for region 2 for the year 2019
@@ -53,4 +56,3 @@ gfortran main_prog1.f hydrofracture1.f crev_lake1.f non_lake_crev_new1.f crev_ce
 5. Type ./main_prog1.exe
 6. In case you get the error message: 'Segmentation fault...', increase the value against the variale SX in main_prog1.f and repeat steps 4 and 5.
 
-# 

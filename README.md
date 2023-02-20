@@ -59,3 +59,7 @@ gfortran main_prog1.f hydrofracture1.f crev_lake1.f non_lake_crev_new1.f crev_ce
 
 The unit of surface elevation data is meters
 The unit of ice thickness data is meters
+
+# Model code
+
+The model code used for region 2 has been uploaded as a .zip file named 'fortran_code.zip'. Instructions to run and compile the model code is given in the mnuscript.
